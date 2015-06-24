@@ -1,0 +1,15 @@
+<table class="states-container">
+  <colgroup span="3" class="columns"></colgroup>
+  <tr>
+    <th>Names</th>
+    <th>Abbr</th>
+    <th>Wiki Link</th>
+  </tr>
+  {{#each name in names}}
+  <tr>
+    <td class="state-name">{{name.name}}</td>
+    <td class="abb-name-text">{{name.abb}}</td>
+    <td><a href="{{name.wiki}}">Link</a></td>
+  </tr>
+  {{/each}}
+</table>

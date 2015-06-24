@@ -1,0 +1,47 @@
+.states-container {
+  width: 1000px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, .1);
+  display: table;
+  border-spacing: 5px;
+  text-align: center;
+}
+
+.name-container {
+  width: 32%;
+  height: 90%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.abb-container {
+  width: 32%;
+  height: 90%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.wiki-container {
+  width: 32%;
+  height: 90%;
+  display: inline-block;
+}
+
+.name-header-text {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.abb-header-text {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.wiki-header-text {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
